@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Saira+Stencil:regular,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Sekuya:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+
+
+.body {
+	font-family:"FunnelSans", sans-serif;
+
+}
+
+.wrapper {
+	min-height: 100%;
+}
+.header {
+}
+.page {
+}
+
+
+/*header*/
+.header {
+}
+.header__logo {
+	font-size: 45px;
+	text-align: left;
+	font-family:"FunnelSans", serif;
+	line-height: 1.4;
+	font-weight: 300;
+	color: #330117;
+	letter-spacing: 5px;
+	text-shadow: 0 3px 0 #0c9de0ce;
+}
+
+/*hero*/
+.page__hero {
+
+}
+.hero {
+}
+.hero__container {
+	
+}
+[class*="__container"] {
+	max-width: 1430px;
+	padding: 15px;
+	margin: 0 auto;
+}
+.hero__containt { 
+}
+.hero__component {
+
+}
+.hero__title {
+	font-family: "Sekuay", sans-serif;
+	font-size: 30px;
+	text-transform: capitalize;
+	color: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);;
+	line-height: 1.5;
+	text-align: center;
+	text-shadow: 0.9px 2px 0.1px #EEAECA;
+
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: rgb(170, 108, 32);
+}
+
+.hero__sub-title {
+	font-family:"FunnelSans", serif;
+	font-weight: 600;
+	text-align: right;
+	font-size: 25px;
+	color: #EEAECA;
+	text-decoration: underline;
+	text-decoration-color: rgb(218, 6, 158);
+	text-decoration-thickness: 5px;
+}
+.hero__text {
+	font-family: "SairaStencil", serif;
+	
+}
+.hero__text p {
+font-family: "FunnelSans", serif;
+font-size: 18px;
+color: blueviolet;
+word-spacing: 5px;
+word-spacing: normal;
+text-align: justify;
+}
+.hero__text span {
+	color: aqua;
+	font-size: 35px;
+	line-height: 1.2;
+	letter-spacing: 3px;
+	text-decoration-style: dashed;
+	text-decoration-thickness: 0.9px;
+	color: aquamarine;
+}
+
+/*block*/
+.hero__block {
+	
+}
+.block {
+}
+.block__title {
+	font-family: "DM Sans", sans-serif;
+	font-size: 50px;
+	line-height: 65px;
+	letter-spacing: -1.26px;
+	text-align: left;
+}
+.block__title span {
+	color: #1AAF5B;
+	font-weight: 700;
+}
+.block__text {
+	color: rgba(0, 0, 0, 1);
+	font-family: "DM Sans";
+	font-size: 20px;
+	line-height: 28px;
+	letter-spacing: -0.5px;
+	text-align: justify;
+	
+}
+/*footer*/
+.footer {
+}
