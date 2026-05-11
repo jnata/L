@@ -1,0 +1,7 @@
+@font-face {
+	font-family: "RobotoFlex";
+	src: url("../fonts/RobotoFlex.woff") format("woff2");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
