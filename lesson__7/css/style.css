@@ -161,6 +161,7 @@ color: #280847;
 	max-width: 474px;
 	font-family: "DM Sans", sans-serif;
 	background-color: #FFFFFF;
+	margin-bottom: 20px;
 }
 .home-block::before {
 	content: "";
@@ -184,6 +185,7 @@ color: #280847;
 }
 .home-block__title span {
 	color:#1AAF5B;
+	font-weight: 700;
 }
 .home-block__text > p {
 	color: rgba(0, 0, 0, 1);
@@ -201,14 +203,198 @@ color: #280847;
 .home-block__link {
 	display: inline-block;
 	border-radius: 0px 18px 0px 0px;
-	padding: 25px 40px 23px 40px;
-	background: rgba(26, 175, 91, 1) url("..//img/arrow.svg") right center no-repeat;
+	padding: 25px 40px;
+	background: rgba(26, 175, 91, 1) url("..//img/arrow.svg") right 19px center no-repeat;
 	font-size: 17px;
 	font-weight: 700;
 	color: #FFFFFF;
 	cursor: pointer;
+	min-width: 209px;
 }
-
 .home-block__link:hover {
 	background-color:#5d7e1b;
+}
+/*home-block2*/
+.home-block2 {
+	display: inline-block;
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+}
+.home-block2::before{
+	content: "";
+	display: block;
+	width: 39%;
+	
+	height: 4px;
+	border-radius: 2px;
+	background: linear-gradient(90.00deg, rgba(18.3, 255, 70.38, 1) 0%,rgba(0, 0, 0, 1) 94.964%);
+	margin-bottom: 17px;
+}
+.home-block2 > *:last-child {
+	margin-bottom: 0px;
+}
+.home-block2__title {
+	font-family: "DM Sans", sans-serif;
+	font-size: 50px;
+	line-height: 60px;
+	color: #202020;
+	letter-spacing: -1.26px;
+	margin-bottom: 15px;
+}
+.home-block2__title span {
+	color:#1AAF5B;
+	font-weight: 700;
+}
+.home-block2__button {
+	display: inline-block;
+	border-radius: 0px 18px 0px 0px;
+	background: rgba(15, 183, 0, 1); 
+	color: rgba(255, 255, 255, 1);
+	font-size: 17px;
+	font-weight: 700;
+	padding: 25px 40px;
+}
+.home-block2__button span::after{
+	content: "";
+	background: url("../img/arrow.svg") no-repeat;
+	top: 50%;
+	right: 39px;
+	width: 20px;
+	height: 9.3px;
+	margin-left: 8.5px;
+}
+.home-block2__button:hover {
+	background-color:#5d7e1b;
+}
+.home-block2__button span:hover::after {
+rotate: -180deg;
+}
+/*home game*/
+.home-game {
+	background: url("../img/game.jpg") center / cover no-repeat;
+	width: 700px;
+	height: 700px;
+	margin: 0 auto;
+	border-radius: 15px;
+	border: 2px solid gold;
+
+}
+.home-game > div {
+	background-color: #fff;
+	opacity: 0.5;
+}
+.home-game > div:first-of-type {
+	margin-left: 50px;
+	border-bottom-left-radius: 20px;
+	font-size: 20px;
+	width: 80px;
+	height: 145px;
+	color: #000000;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 25px;
+	visibility: visible;
+}
+.home-game > div:first-of-type:hover {
+	background-color: rgb(241, 216, 154);
+	border: 2px solid rgb(223, 208, 122);
+	color: #474321;
+}
+
+.home-game > div:nth-child(2) {
+	width: 180px;
+	height: 75px;
+	visibility: hidden;
+	margin-left: 130px;
+	border-top-right-radius: 20px;
+	margin-top: -75px;
+
+}
+.home-game > div:first-of-type:hover + div,
+.home-game > div:nth-child(2):hover {
+	visibility: visible;
+}
+.home-game > div:nth-child(3) {
+	width: 80px;
+	height: 180px;
+	border-bottom-right-radius: 20px;
+	margin-top: 0px;
+	margin-left: 230px;
+	visibility: hidden;
+}
+.home-game > div:nth-child(2):hover+ div,
+.home-game > div:nth-child(3):hover {
+	visibility: visible;
+}
+.home-game > div:nth-child(4) {
+	border-top-left-radius: 20px;
+	width: 130px;
+	height: 75px;
+	margin-top: -75px;
+	margin-left: 100px;
+	visibility: hidden;
+}
+.home-game > div:nth-child(3):hover + div,
+.home-game > div:nth-child(4):hover {
+	visibility: visible;
+}
+.home-game > div:nth-child(5) {
+	border-bottom-left-radius: 20px;
+	width: 200px;
+	height: 60px;
+	visibility: hidden;
+
+	width: 80px;
+	height: 175px;
+	margin-top: 0px;
+	margin-left: 98px;
+}
+.home-game > div:nth-child(4):hover + div,
+.home-game > div:nth-child(5):hover {
+	visibility: visible;
+}
+.home-game > div:nth-child(6){
+
+	visibility: hidden;
+
+	width: 272px;
+	height: 75px;
+	margin-top: -75px;
+	margin-left: 178px;
+}
+.home-game > div:nth-child(5):hover + div,
+.home-game > div:nth-child(6):hover {
+	visibility: visible;
+}
+
+.home-game > div:nth-child(7){
+	border-top-right-radius: 20px;
+	visibility: hidden;
+
+	width: 89.5px;
+	height: 199.5px;
+	margin-top: -75px;
+	margin-left: 450px;
+}
+.home-game > div:nth-child(6):hover + div,
+.home-game > div:nth-child(7):hover {
+	visibility: visible;
+}
+.home-game > div:last-child {
+	
+	margin-left: 450px;
+	width: 86.5px;
+	height: 74px;
+	padding-bottom: 0px;
+	
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+	text-transform: uppercase;
+	visibility: visible;
+}
+.home-game > div:last-of-type:hover {
+	background-color: rgb(241, 216, 154);
+	border: 2px solid rgb(223, 208, 122);
+	color: #474321;
 }
