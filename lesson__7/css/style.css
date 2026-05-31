@@ -5,7 +5,6 @@ body {
 	background-color: #bb7ef7;
 	color: #6408c1;
 }
-
 .link {
 	font-size: 20px;
 	margin-right: 15px;
@@ -66,7 +65,6 @@ color: antiquewhite;
 .text p:last-child {
 color: red;
 }*/
-
 .text p:last-of-type {
 	color: rgb(226, 226, 58);
 }
@@ -90,7 +88,6 @@ color: #280847;
 	padding: 15px;
 	background-color: #fff;
 	margin-bottom: 30px;
-
 }
 .some-block > *{
 	margin-bottom: 17px;
@@ -224,7 +221,6 @@ color: #280847;
 	content: "";
 	display: block;
 	width: 39%;
-	
 	height: 4px;
 	border-radius: 2px;
 	background: linear-gradient(90.00deg, rgba(18.3, 255, 70.38, 1) 0%,rgba(0, 0, 0, 1) 94.964%);
@@ -277,7 +273,6 @@ rotate: -180deg;
 	margin: 0 auto;
 	border-radius: 15px;
 	border: 2px solid gold;
-
 }
 .home-game > div {
 	background-color: #fff;
@@ -300,7 +295,6 @@ rotate: -180deg;
 	border: 2px solid rgb(223, 208, 122);
 	color: #474321;
 }
-
 .home-game > div:nth-child(2) {
 	width: 180px;
 	height: 75px;
@@ -308,7 +302,6 @@ rotate: -180deg;
 	margin-left: 130px;
 	border-top-right-radius: 20px;
 	margin-top: -75px;
-
 }
 .home-game > div:first-of-type:hover + div,
 .home-game > div:nth-child(2):hover {
@@ -343,7 +336,6 @@ rotate: -180deg;
 	width: 200px;
 	height: 60px;
 	visibility: hidden;
-
 	width: 80px;
 	height: 175px;
 	margin-top: 0px;
@@ -354,9 +346,7 @@ rotate: -180deg;
 	visibility: visible;
 }
 .home-game > div:nth-child(6){
-
 	visibility: hidden;
-
 	width: 272px;
 	height: 75px;
 	margin-top: -75px;
@@ -366,11 +356,9 @@ rotate: -180deg;
 .home-game > div:nth-child(6):hover {
 	visibility: visible;
 }
-
 .home-game > div:nth-child(7){
 	border-top-right-radius: 20px;
 	visibility: hidden;
-
 	width: 89.5px;
 	height: 199.5px;
 	margin-top: -75px;
@@ -381,12 +369,10 @@ rotate: -180deg;
 	visibility: visible;
 }
 .home-game > div:last-child {
-	
 	margin-left: 450px;
 	width: 86.5px;
 	height: 74px;
 	padding-bottom: 0px;
-	
 	font-size: 20px;
 	color: #000000;
 	text-align: center;
